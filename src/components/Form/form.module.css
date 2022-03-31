@@ -1,0 +1,32 @@
+.form {
+    box-sizing: border-box;
+    padding: 30px;
+    border: 4px solid rgba(255, 0, 0, 0.178);
+    display: grid;
+}
+
+.form__group {
+    margin: 20px;
+}
+.form__label {
+    display: block;
+
+}
+.form__input {
+    height: 20px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.form__input:focus {
+    border-bottom:  2px solid teal;
+}
+
+.form__button {
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    background-color: rgb(152, 152, 173);
+    color: aliceblue;
+}
